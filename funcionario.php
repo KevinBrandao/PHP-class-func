@@ -3,7 +3,7 @@
 include('Calculadora.php');
 include('Funcionarios.php');
 
-$id = $_POST['id'];
+$id = $_POST['cpf'];
 
 $calculadora = new Calculadora();
 $funcionarios = new Funcionarios();
